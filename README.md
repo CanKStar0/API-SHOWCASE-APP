@@ -33,7 +33,7 @@ API Showcase is a modern web application that helps developers discover free API
 ## 🖥️ Demo
 
 <div align="center">
-  <a href="https://api-showcase-app-production.up.railway.app">
+  <a href="https://api-showcase.up.railway.app/">
     <img src="https://via.placeholder.com/800x400/0ea5e9/ffffff?text=API+Showcase+Demo" alt="API Showcase Screenshot" />
   </a>
   <p><em>Click to view live demo</em></p>
