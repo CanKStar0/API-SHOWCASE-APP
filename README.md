@@ -2,14 +2,14 @@
 
 <div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-15.5-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **A curated collection of 200+ free APIs across 37 categories for developers**
 
-[Demo](#demo) • [Features](#features) • [Installation](#installation) • [Categories](#categories) • [Contributing](#contributing)
+[🌐 Live Demo](https://api-showcase-app-production.up.railway.app) • [Features](#features) • [Installation](#installation) • [Categories](#categories) • [Contributing](#contributing)
 
 </div>
 
@@ -25,20 +25,25 @@ API Showcase is a modern web application that helps developers discover free API
 - 📂 **37 Categories** - From Weather to Gaming, Crypto to Space
 - 🌙 **Dark/Light Mode** - Easy on the eyes
 - 📱 **Responsive Design** - Works on all devices
-- ⚡ **Fast & Modern** - Built with Next.js 14
+- ⚡ **Fast & Modern** - Built with Next.js 15
 - 🎨 **Beautiful UI** - Glass morphism effects & smooth animations
 - ⭐ **Recommended APIs** - Highlighted picks for each category
 - 🔍 **Rate Limits** - Know the limits before you start
 
 ## 🖥️ Demo
 
-![API Showcase Screenshot](https://via.placeholder.com/800x400/0ea5e9/ffffff?text=API+Showcase+Demo)
+<div align="center">
+  <a href="https://api-showcase-app-production.up.railway.app">
+    <img src="https://via.placeholder.com/800x400/0ea5e9/ffffff?text=API+Showcase+Demo" alt="API Showcase Screenshot" />
+  </a>
+  <p><em>Click to view live demo</em></p>
+</div>
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
-| [Next.js 14](https://nextjs.org/) | React Framework (App Router) |
+| [Next.js 15](https://nextjs.org/) | React Framework (App Router) |
 | [TypeScript](https://www.typescriptlang.org/) | Type Safety |
 | [Tailwind CSS](https://tailwindcss.com/) | Styling |
 | [Framer Motion](https://www.framer.com/motion/) | Animations |
@@ -87,8 +92,8 @@ api-showcase/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/api-showcase.git
-   cd api-showcase
+   git clone https://github.com/CanKStar0/API-SHOWCASE-APP.git
+   cd API-SHOWCASE-APP
    ```
 
 2. **Install dependencies**
@@ -171,6 +176,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repo if you find it useful!**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [CanKStar0](https://github.com/CanKStar0)
 
 </div>

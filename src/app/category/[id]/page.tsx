@@ -4,7 +4,7 @@ import { categories, getCategoryById } from '@/data/apis';
 import CategoryPageClient from './CategoryPageClient';
 
 interface PageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export async function generateStaticParams() {
@@ -14,7 +14,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const category = getCategoryById(params.id);
+  const { id } = await params;
+  const category = getCategoryById(id);
   
   if (!category) {
     return {
@@ -28,8 +29,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default function CategoryPage({ params }: PageProps) {
-  const category = getCategoryById(params.id);
+export default async function CategoryPage({ params }: PageProps) {
+  const { id } = await params;
+  const category = getCategoryById(id);
   
   if (!category) {
     notFound();
