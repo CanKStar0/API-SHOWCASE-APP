@@ -51,7 +51,7 @@ export function Header() {
               Kategoriler
             </Link>
             <a 
-              href="https://github.com" 
+              href="https://github.com/CanKStar0/API-SHOWCASE-APP" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-primary-500 dark:hover:text-primary-400 transition-colors"
